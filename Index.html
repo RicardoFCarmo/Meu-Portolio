@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Meu Portfólio</title>    
+</head>
+<link rel="stylesheet" type="text/css" href="MeuPortfolio.css">
+<body>
+    <header>
+        <h1>Meu Portfólio</h1>
+    </header>
+    <nav>
+        <a href="#dados">Sobre</a>
+        <a href="#redes">Redes Sociais</a>
+        <a href="#projetos">Projetos</a>
+        <a href="#contato">Contato</a>
+    </nav>
+    <section id="dados">
+        <div class="images">
+            <img src="foto01.jpg" alt="Minha Foto Pessoal" class="personal-photo">
+        </div>
+        <h2>Olá! Sou Ricardo Ferreira do Carmo</h2>
+        <p>Trabalho como AbapJr</p>
+        <p>Cursando Análise e Desenvolvimento de Sistemas</p>
+        <p>Cursando Formação ABAP Jr.</p>
+    </section>
+    <section id="redes">
+        <h2>Redes Sociais</h2>
+        <a href="https://www.linkedin.com/in/ricardo-ferreira-do-carmo-264508275/" target="_blank"><img src="linkedin.jpg" alt="LinkedIn"></a>        
+        <a href="https://github.com/RicardoFCarmo" target="_blank"><img src="GitHub2.jpg" alt="GitHub"></a>
+        <a href="https://www.facebook.com/ricardo.ferreiradocarmo/" target="_blank"><img src="facebook2.jpg" alt="GitHub"></a>
+    </section>
+    <section id="projetos">
+        <h2>Projetos</h2>
+        <p>Projeto Cofrinho - Disciplina Programação Orientada a Objetos.</p>
+    </section>
+    <section id="contato">
+        <h2>Contato</h2>
+        <div class="contact-form">
+            <form action="seu_script_de_envio.php" method="post">
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Mensagem:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <input type="submit" value="Enviar">
+            </form>
+        </div>
+    </section>
+    <footer>
+        &copy; 2023 Ricardo
+    </footer>
+</body>
+</html>
